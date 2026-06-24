@@ -5,6 +5,7 @@ function Navbar() {
     <nav className="navbar">
 
       <div className="logo">
+        <img src="/logo.png" alt="KUNG'AA INITIATIVE" />
         <h2>KUNG'AA INITIATIVE</h2>
       </div>
 
