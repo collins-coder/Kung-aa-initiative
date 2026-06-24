@@ -576,3 +576,89 @@
   1px solid rgba(255,255,255,.1);
 }
 
+/* ===================================
+   MOBILE RESPONSIVE
+=================================== */
+
+@media screen and (max-width:768px){
+
+  .navbar{
+    padding:15px 20px;
+  }
+
+  .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+
+  .logo img{
+    width:45px;
+    height:45px;
+  }
+
+  .logo h2{
+    font-size:1rem;
+  }
+
+  .nav-links{
+    gap:15px;
+  }
+
+  .nav-links a{
+    font-size:0.9rem;
+  }
+
+  .hero{
+    min-height:70vh;
+  }
+
+  .hero-content{
+    padding:20px;
+  }
+
+  .hero-content h1{
+    font-size:2.2rem;
+  }
+
+  .hero-content p{
+    font-size:1rem;
+  }
+
+  .section,
+  .content-section,
+  .services-grid,
+  .leadership-grid,
+  .statistics,
+  .mission-vision,
+  .contact-wrapper{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .page-header{
+    padding:70px 20px;
+  }
+
+  .page-header h1{
+    font-size:2rem;
+  }
+
+  .contact-wrapper{
+    grid-template-columns:1fr;
+  }
+
+  .mission-vision,
+  .statistics,
+  .services-grid,
+  .leadership-grid{
+    grid-template-columns:1fr;
+  }
+
+  .card,
+  .service-card,
+  .leader-card,
+  .stat-card{
+    width:100%;
+  }
+}
