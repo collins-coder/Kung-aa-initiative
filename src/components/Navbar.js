@@ -15,12 +15,6 @@ function Navbar() {
         <h2>KUNG'AA INITIATIVE</h2>
       </div>
 
-      <div
-        className="menu-toggle"
-        onClick={() => setMenuOpen(!menuOpen)}
-      >
-        ☰
-      </div>
 
       <ul
         className={
