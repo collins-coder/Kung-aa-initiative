@@ -34,7 +34,7 @@ function Contact() {
           <p>
             <strong>Email:</strong>
             <br />
-            info@kungaainitiative.org
+            kungaainitiative@gmail.com
           </p>
 
         </div>
