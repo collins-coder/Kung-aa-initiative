@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -25,17 +27,27 @@ function Footer() {
 
           <h3>Quick Links</h3>
 
-          <ul>
+          <ul className="footer-links">
 
-            <li>Home</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
 
-            <li>About</li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
 
-            <li>Services</li>
+            <li>
+              <Link to="/services">Services</Link>
+            </li>
 
-            <li>Leadership</li>
+            <li>
+              <Link to="/leadership">Leadership</Link>
+            </li>
 
-            <li>Contact</li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
 
           </ul>
 
